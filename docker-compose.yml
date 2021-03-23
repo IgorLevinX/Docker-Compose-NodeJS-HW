@@ -1,0 +1,7 @@
+version: "3.8"
+
+services:
+  test-node:
+    build: .
+    ports:
+      - "8088:8088"
